@@ -7,9 +7,9 @@ import random
 nota_1 = random.randint(1, 10)
 nota_2 = random.randint(1, 10)
 promedio = (nota_1 + nota_2) / 2
-if nota >= 6:
+if promedio >= 6:
     print("Promoción directa, la nota es:", promedio)
-elif nota >= 4:
+elif promedio >= 4:
     print("Aprobado, la nota es:", promedio)
 else:
     print("Desaprobado, la nota es:", promedio)
